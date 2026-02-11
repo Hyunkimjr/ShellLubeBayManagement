@@ -1,8 +1,8 @@
 # Inventory Management System
 
 ## 📌 Description
-A Windows Forms inventory management system built using C# and MySQL.
-This system allows product management, sales tracking, and stock monitoring.
+A desktop inventory management system built using C# WinForms and MySQL,
+designed to streamline product tracking, sales recording, and stock monitoring for small businesses.
 
 ---
 
