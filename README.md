@@ -45,16 +45,16 @@ This system is designed to manage transactions, inventory, and customer records 
 ## 🖥️ System Screenshots
 
 ### Main Transaction Records
-![Main Form](./screenshots/mainform.jpg)
+![Main Form](mainform.jpg)
 
 ### Transaction Module
-![Transaction Module](./screenshots/transaction.jpg)
+![Transaction Module](transaction.jpg)
 
 ### Product Inventory Management
-![Product Management](./screenshots/products.jpg)
+![Product Management](products.jpg)
 
 ### Sales Chart Analytics
-![Sales Chart](./screenshots/chart.jpg)
+![Sales Chart](chart.jpg)
 
 ---
 
