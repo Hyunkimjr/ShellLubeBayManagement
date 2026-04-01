@@ -1,40 +1,77 @@
-# Inventory Management System
+# 🛢️ Shell LubeBay Management System
 
-## 📌 Description
-A desktop inventory management system built using C# WinForms and MySQL,
-designed to streamline product tracking, sales recording, and stock monitoring for small businesses.
+A desktop-based management system developed using *C# (Windows Forms)* and *MySQL* to streamline daily operations in a Shell Lube Bay.
 
 ---
 
-## 🚀 Features
-- Add, edit, and delete products
-- Record sales transactions
-- Automatic stock deduction
-- Low-stock alert system
-- Monthly sales chart
-- MySQL database integration
+## 📌 Overview
+
+This system is designed to manage transactions, inventory, and customer records for an automotive service business. It replaces manual processes with a more efficient and organized digital solution.
 
 ---
 
-## 🛠 Tech Stack
+## ⚙️ Features
+
+- ✅ Transaction Management  
+  - Record services, products, labor, and total cost  
+  - Automatic total calculation  
+
+- ✅ Customer & Product Integration  
+  - Select customers and products from database  
+  - Organized data handling  
+
+- ✅ Inventory Tracking  
+  - Monitor stock levels of oils, filters, and other items  
+
+- ✅ Search Functionality  
+  - Quickly find transactions using search bar  
+
+- ✅ User-Friendly Interface  
+  - Clean and simple Windows Forms design  
+
+---
+
+## 🖥️ System Screenshots
+
+### Main Transaction Records
+![Main Form](./screenshots/mainform.jpg)
+
+### Transaction Module
+![Transaction Module](./screenshots/transaction.jpg)
+
+---
+
+## 🧠 Technical Details
+
+- Developed using *C# (Windows Forms)*
+- Database: *MySQL*
+- CRUD Operations (Create, Read, Update, Delete)
+- DataGridView for dynamic data display
+- Structured multi-form navigation system
+
+---
+
+## 💡 Real-World Application
+
+This system is based on actual operations from a Shell Lube Bay and can be used for:
+
+- Automotive service centers  
+- Inventory-based businesses  
+- Small and medium enterprises  
+
+---
+
+## 🛠️ Tools & Technologies
+
 - C#
 - Windows Forms
 - MySQL
-- .NET Framework
+- Visual Studio 2022
 
 ---
 
-## ⚙️ Installation & Setup
+## 👤 Author
 
-1. Clone the repository
-2. Open the solution in Visual Studio
-3. Set up the MySQL database
-4. Update the connection string in App.config
-5. Run the application
-
----
-
-## 📊 Future Improvements
-- User authentication
-- Role-based access
-- Export sales reports to PDF
+*Hyun Jr. Kim*  
+📧 hyunjrk@gmail.com  
+📍 Santa Rosa, Laguna, Philippines
