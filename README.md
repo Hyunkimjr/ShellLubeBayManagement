@@ -18,36 +18,76 @@ This system is designed to manage transactions, inventory, and customer records 
 
 - ✅ Customer & Product Integration  
   - Select customers and products from database  
-  - Organized data handling  
+  - Organized relational data handling  
 
-- ✅ Inventory Tracking  
-  - Monitor stock levels of oils, filters, and other items  
+- ✅ Inventory Management  
+  - Track product quantities in real-time  
+  - Manage lubricants, filters, and other items  
+
+- ✅ Low Stock Warning System  
+  - Monitors product quantities against reorder levels  
+  - Alerts when stock reaches critical level  
+  - Helps prevent out-of-stock situations  
+
+- ✅ Monthly Sales Chart Analytics  
+  - Visualizes monthly sales per product  
+  - Tracks product performance trends  
+  - Helps identify fast-moving and slow-moving items  
 
 - ✅ Search Functionality  
-  - Quickly find transactions using search bar  
+  - Quickly find transactions and products  
 
 - ✅ User-Friendly Interface  
-  - Clean and simple Windows Forms design  
-
+  - Clean navigation (Customer, Product, Deliveries, Categories, Users, Transactions)
+    
 ---
 
 ## 🖥️ System Screenshots
 
 ### Main Transaction Records
-![Main Form](mainform.jpg)
+![Main Form](./screenshots/mainform.jpg)
 
 ### Transaction Module
-![Transaction Module](transaction.jpg)
+![Transaction Module](./screenshots/transaction.jpg)
+
+### Product Inventory Management
+![Product Management](./screenshots/products.jpg)
+
+### Sales Chart Analytics
+![Sales Chart](./screenshots/chart.jpg)
 
 ---
 
-## 🧠 Technical Details
+## 🧠 Technical Highlights
 
-- Developed using *C# (Windows Forms)*
-- Database: *MySQL*
-- CRUD Operations (Create, Read, Update, Delete)
-- DataGridView for dynamic data display
-- Structured multi-form navigation system
+- Designed and implemented a relational database using *MySQL*  
+- Developed full CRUD functionality using *C# (Windows Forms)*  
+- Implemented *DataGridView* for dynamic data display and management  
+- Built modular system architecture (Customer, Product, Transaction modules)  
+
+- Implemented *Low Stock Detection Logic*  
+  - Compared product quantity against reorder threshold  
+  - Enabled early identification of items needing restock  
+
+- Developed *Monthly Sales Aggregation System*  
+  - Processed transaction data by month  
+  - Grouped and summarized product sales  
+
+- Integrated *Data Visualization using Charts*  
+  - Displayed monthly sales trends per product  
+  - Improved decision-making through visual analytics  
+
+- Applied real-world business logic based on actual Shell Lube Bay operations
+
+---
+
+## 🧠 Business Logic Implemented
+
+- Inventory reorder level tracking  
+- Monthly aggregation of sales data for charts  
+- Data filtering by date (monthly reports)  
+- Product-based sales performance tracking  
+- Separation of concerns (Customer, Product, Transaction modules)
 
 ---
 
@@ -59,6 +99,14 @@ This system is based on actual operations from a Shell Lube Bay and can be used 
 - Inventory-based businesses  
 - Small and medium enterprises  
 
+---
+
+## 🚀 Future Improvements
+
+- User authentication (Admin/User roles)  
+- Export reports to Excel  
+- Receipt printing  
+  
 ---
 
 ## 🛠️ Tools & Technologies
