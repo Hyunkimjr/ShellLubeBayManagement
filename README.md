@@ -10,6 +10,15 @@ This system is designed to manage transactions, inventory, and customer records 
 
 ---
 
+## 🧩 System Architecture
+
+- Frontend: Windows Forms (C#)
+- Backend: MySQL Database
+- Data Flow:
+  User פעולה → UI → Database → Processed → Displayed in UI
+  
+---
+
 ## ⚙️ Features
 
 - ✅ Transaction Management  
@@ -116,6 +125,13 @@ This system is based on actual operations from a Shell Lube Bay and can be used 
 - MySQL
 - Visual Studio 2022
 
+---
+
+## 📚 Lessons Learned
+- Improved database design skills
+- Learned to structure large desktop applications
+- Gained experience in real-world business workflows
+  
 ---
 
 ## 👤 Author
